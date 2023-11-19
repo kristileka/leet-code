@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(LeetCode)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(LeetCode leet_code_1/main.cpp)
