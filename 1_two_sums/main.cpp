@@ -25,16 +25,3 @@ static vector<int> twoSum(vector<int> &nums, int target) {
     return v;
 }
 
-
-int main() {
-    vector<int> v = {3, 2, 4};
-    vector<int> v1 = twoSum(v, 6);
-    stringstream ss;
-    copy(v1.begin(), v1.end(), ostream_iterator<int>(ss, " "));
-    string s = ss.str();
-
-    cout << s;
-    return 0;
-}
-
-
