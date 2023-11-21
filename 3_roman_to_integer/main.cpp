@@ -39,8 +39,3 @@ int romanToInt(string s) {
     }
     return currentSum;
 }
-
-int main() {
-    cout << romanToInt("MCMXCIV");
-    return 0;
-}
